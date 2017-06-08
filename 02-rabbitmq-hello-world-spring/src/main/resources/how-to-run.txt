@@ -1,0 +1,4 @@
+# publisher 需要添加运行参数
+--spring.profiles.active=hello-world,sender
+# consumer 需要添加运行参数
+--spring.profiles.active=hello-world,receiver
