@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/01-rabbitmq-hello-world/pom.xml" />
         <option value="$PROJECT_DIR$/02-rabbitmq-hello-world-spring/pom.xml" />
+        <option value="$PROJECT_DIR$/02-rabbitmq-消息发布订阅/pom.xml" />
       </list>
     </option>
   </component>
