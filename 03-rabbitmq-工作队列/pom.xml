@@ -5,8 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example.rabbitmq</groupId>
-    <artifactId>03-rabbitmq-消息发布订阅</artifactId>
+    <artifactId>02-rabbitmq-消息发布订阅</artifactId>
     <version>1.0-SNAPSHOT</version>
+
     <dependencies>
         <dependency>
             <groupId>com.rabbitmq</groupId>
@@ -14,6 +15,4 @@
             <version>4.1.0</version>
         </dependency>
     </dependencies>
-
-
 </project>

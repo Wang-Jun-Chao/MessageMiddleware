@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/01-rabbitmq-hello-world/01-rabbitmq-hello-world.iml" filepath="$PROJECT_DIR$/01-rabbitmq-hello-world/01-rabbitmq-hello-world.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-rabbitmq-hello-world-spring/02-rabbitmq-hello-world-spring.iml" filepath="$PROJECT_DIR$/02-rabbitmq-hello-world-spring/02-rabbitmq-hello-world-spring.iml" />
-      <module fileurl="file://$PROJECT_DIR$/03-rabbitmq-消息发布订阅/03-rabbitmq-消息发布订阅.iml" filepath="$PROJECT_DIR$/03-rabbitmq-消息发布订阅/03-rabbitmq-消息发布订阅.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-rabbitmq-工作队列/03-rabbitmq-工作队列.iml" filepath="$PROJECT_DIR$/03-rabbitmq-工作队列/03-rabbitmq-工作队列.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-rabbitmq-工作队列-spring/04-rabbitmq-工作队列-spring.iml" filepath="$PROJECT_DIR$/04-rabbitmq-工作队列-spring/04-rabbitmq-工作队列-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-rabbitmq-工作队列/src/main/main.iml" filepath="$PROJECT_DIR$/03-rabbitmq-工作队列/src/main/main.iml" />
     </modules>
   </component>
 </project>
