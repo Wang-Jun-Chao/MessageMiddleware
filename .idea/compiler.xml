@@ -13,6 +13,8 @@
         <module name="03-rabbitmq-消息发布订阅" />
         <module name="04-rabbitmq-工作队列-spring" />
         <module name="05-rabbitmq-发布订阅" />
+        <module name="05-rabbitmq-发布订阅-spring" />
+        <module name="06-rabbitmq-发布订阅-spring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +25,8 @@
       <module name="03-rabbitmq-消息发布订阅" target="1.8" />
       <module name="04-rabbitmq-工作队列-spring" target="1.8" />
       <module name="05-rabbitmq-发布订阅" target="1.8" />
+      <module name="05-rabbitmq-发布订阅-spring" target="1.8" />
+      <module name="06-rabbitmq-发布订阅-spring" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
