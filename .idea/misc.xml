@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/04-rabbitmq-工作队列-spring/pom.xml" />
         <option value="$PROJECT_DIR$/05-rabbitmq-发布订阅/pom.xml" />
         <option value="$PROJECT_DIR$/06-rabbitmq-发布订阅-spring/pom.xml" />
+        <option value="$PROJECT_DIR$/07-rabbitmq-消息路由/pom.xml" />
+        <option value="$PROJECT_DIR$/08-rabbitmq-消息路由-spring/pom.xml" />
       </list>
     </option>
   </component>

@@ -5,29 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example.rabbitmq</groupId>
-    <artifactId>06-rabbitmq-发布订阅-spring</artifactId>
+    <artifactId>07-rabbitmq-消息路由</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.5.4.RELEASE</version>
-    </parent>
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-
         <dependency>
             <groupId>com.rabbitmq</groupId>
             <artifactId>amqp-client</artifactId>
             <version>4.1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.amqp</groupId>
-            <artifactId>spring-rabbit</artifactId>
-            <version>1.7.2.RELEASE</version>
         </dependency>
     </dependencies>
 </project>

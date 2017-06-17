@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/04-rabbitmq-工作队列-spring/04-rabbitmq-工作队列-spring.iml" filepath="$PROJECT_DIR$/04-rabbitmq-工作队列-spring/04-rabbitmq-工作队列-spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/05-rabbitmq-发布订阅/05-rabbitmq-发布订阅.iml" filepath="$PROJECT_DIR$/05-rabbitmq-发布订阅/05-rabbitmq-发布订阅.iml" />
       <module fileurl="file://$PROJECT_DIR$/06-rabbitmq-发布订阅-spring/06-rabbitmq-发布订阅-spring.iml" filepath="$PROJECT_DIR$/06-rabbitmq-发布订阅-spring/06-rabbitmq-发布订阅-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-rabbitmq-消息路由/07-rabbitmq-消息路由.iml" filepath="$PROJECT_DIR$/07-rabbitmq-消息路由/07-rabbitmq-消息路由.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-rabbitmq-消息路由-spring/08-rabbitmq-消息路由-spring.iml" filepath="$PROJECT_DIR$/08-rabbitmq-消息路由-spring/08-rabbitmq-消息路由-spring.iml" />
     </modules>
   </component>
 </project>

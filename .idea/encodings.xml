@@ -4,5 +4,6 @@
     <file url="file://$PROJECT_DIR$/02-rabbitmq-hello-world-spring" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/04-rabbitmq-工作队列-spring" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/06-rabbitmq-发布订阅-spring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-rabbitmq-消息路由-spring" charset="UTF-8" />
   </component>
 </project>
