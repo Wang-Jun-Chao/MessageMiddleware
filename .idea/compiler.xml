@@ -20,6 +20,8 @@
         <module name="09-rabbitmq-消息主题" />
         <module name="09-rabbitmq-消息主题-spring" />
         <module name="10-rabbitmq-消息主题-spring" />
+        <module name="11-rabbitmq-远程过程调用" />
+        <module name="12-rabbitmq-远程过程调用-spring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -37,6 +39,8 @@
       <module name="09-rabbitmq-消息主题" target="1.8" />
       <module name="09-rabbitmq-消息主题-spring" target="1.8" />
       <module name="10-rabbitmq-消息主题-spring" target="1.8" />
+      <module name="11-rabbitmq-远程过程调用" target="1.8" />
+      <module name="12-rabbitmq-远程过程调用-spring" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
