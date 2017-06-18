@@ -18,20 +18,6 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling
 public class RabbitAmqpTutorialsApplication {
 
-    @Profile("usage_message")
-    @Bean
-    public CommandLineRunner usage() {
-        return new CommandLineRunner() {
-            @Override
-            public void run(String... strings) throws Exception {
-                System.out.println("This app uses Spring Profiles to control its behavior.\n");
-                System.out.println("Sample usage: java -jar xxx.jar --spring.profiles.active = hello-world, sender");
-                System.out.println("Sample usage: java -jar xxx.jar --spring.profiles.active = hello-world, receiver");
-            }
-        };
-    }
-
-    @Profile("!usage_message")
     @Bean
     public CommandLineRunner tutorial() {
         return new RabbitAmqpTutorialsRunner();
