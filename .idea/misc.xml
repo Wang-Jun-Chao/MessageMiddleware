@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/10-rabbitmq-消息主题-spring/pom.xml" />
         <option value="$PROJECT_DIR$/11-rabbitmq-远程过程调用/pom.xml" />
         <option value="$PROJECT_DIR$/12-rabbitmq-远程过程调用-spring/pom.xml" />
+        <option value="$PROJECT_DIR$/03-rabbitmq-工作队列/pom.xml" />
       </list>
     </option>
   </component>
