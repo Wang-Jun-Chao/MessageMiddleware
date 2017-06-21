@@ -1,42 +1,47 @@
-package com.example.rabbitmq;
+package com.example.rabbitmq.tut2;
 
-import org.springframework.amqp.core.FanoutExchange;
-import org.springframework.amqp.rabbit.annotation.RabbitListener;
+import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
-import org.springframework.util.StopWatch;
 
 /**
+ * 消息发送者
+ *
  * Author: 王俊超
- * Date: 2017-06-17 11:29
+ * Date: 2017-06-17 10:31
  * All Rights Reserved !!!
  */
-public class Tut3Sender {
+public class Tut2Sender {
 
-
+    /** 消息模板对象 */
     @Autowired
     private RabbitTemplate template;
 
+    /** 消息队列 */
     @Autowired
-    private FanoutExchange fanout;
+    private Queue queue;
 
-    int dots = 0;
+    private int dots = 0;
+    private int count = 0;
 
-    int count = 0;
-
+    /**
+     * 消息发送方法，初始延迟0.5秒，之后每1秒发送一个消息
+     */
     @Scheduled(fixedDelay = 1000, initialDelay = 500)
     public void send() {
         StringBuilder builder = new StringBuilder("Hello");
         if (dots++ == 3) {
             dots = 1;
         }
+
         for (int i = 0; i < dots; i++) {
             builder.append('.');
         }
+
         builder.append(Integer.toString(++count));
         String message = builder.toString();
-        template.convertAndSend(fanout.getName(), "", message);
-        System.out.println(" [x] Sent '" + message + "'");
+        template.convertAndSend(queue.getName(), message);
+        System.out.println( " [x] Sent '" + message + "'");
     }
 }

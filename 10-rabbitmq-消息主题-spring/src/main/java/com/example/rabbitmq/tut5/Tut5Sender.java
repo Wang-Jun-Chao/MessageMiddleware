@@ -1,4 +1,4 @@
-package com.example.rabbitmq;
+package com.example.rabbitmq.tut5;
 
 import org.springframework.amqp.core.TopicExchange;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;

@@ -1,4 +1,4 @@
-package com.example.rabbitmq;
+package com.example.rabbitmq.tut6;
 
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 
